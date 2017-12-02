@@ -31,5 +31,4 @@ while True:
 			replies.append(submission.id)
 		time.sleep(1)
 	time.sleep(1)
-
-
+  
