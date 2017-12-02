@@ -25,7 +25,7 @@ while True:
         if submission.id not in posts_replied_to:
             text = submission.selftext
             thes = text.lower().split(" ").count("the")
-            submission.reply("Hi. I am a bot. (Zaz) You wrote the word \"the\" {0} times version4".format(thes))
+            submission.reply("Hi. I am a bot. (Zaz) You wrote the word \"the\" {0} times version6".format(thes))
             with open("posts_replied_to.txt", "a") as f:
                 f.write("\n{0}".format(submission.id))
             posts_replied_to.append(submission.id)
