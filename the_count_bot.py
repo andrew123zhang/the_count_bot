@@ -2,6 +2,9 @@ import praw
 import os
 import time
 
+#FUCKCKCKCKCKCKCKCKCCKCKCKCCKCKCKCK
+#FUCKFUCKFUCKFUKCFUCKFUCKFUKUFCUFKCUFUC
+
 bot = praw.Reddit(user_agent="The Count Bot",
                   client_id="R2Cow3Sq7SvGXA",
                   client_secret="B9zd_3-30EX4mloVEoQAKOf43ZI",
