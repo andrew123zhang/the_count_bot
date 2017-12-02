@@ -28,6 +28,8 @@ while True:
 			submission.reply("Hi. I am a bot (J). You wrote the word \"the\" {0} times".format(thes))
 			with open("replies.txt", "a") as f:
 				f.write("\n{0}".format(submission.id))
+			replies.append(submission.id)
+		time.sleep(1)
 	time.sleep(1)
 
 
